@@ -16,7 +16,7 @@ ul, li {list-style:none;}
 /* Прижимаем футер к низу страницы */
 html, body, wrap {margin: 0; padding: 0; height:100%;}
 #wrap {
-	width:100%;
+	width:100%;                           
 	height:auto;
 	min-height:100%;
 	overflow:hidden;
@@ -124,7 +124,7 @@ html, body, wrap {margin: 0; padding: 0; height:100%;}
 		position:relative;
 		margin:0 auto;
 		}
-		.slider .arrow {display:block; width:35px; height:35px; margin:65px 0; position:absolute;}
+		.slider .arrow {display:block; width:35px; height:35px; margin:65px 0; position:absolute; cursor: pointer;}
 			.slider .arrow.left {background:url(images/ui/portfolio-left-arrow-small.png) no-repeat; left:15px;}
 			.slider .arrow.right {background:url(images/ui/portfolio-right-arrow-small.png) no-repeat; right:15px;}
 		.slider-container {width:900px; position:absolute; left:50px; overflow:hidden;}
